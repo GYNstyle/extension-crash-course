@@ -4,7 +4,7 @@ document.body.innerHTML = `
  <div id="container">
     <h1>This is the content script</h1>
     <button id="btn">Send content script message</button>
-<div>
+</div>
 `;
 
 document.querySelector("#btn").addEventListener("click", () => {
